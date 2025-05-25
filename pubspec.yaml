@@ -1,4 +1,4 @@
-name: eduverse
+name: helloworld
 description: A new Flutter project.
 publish_to: 'none'
 
@@ -11,8 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  image_picker: 1.1.2
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -20,12 +18,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/images/bg.jpg
-    - assets/images/logo.png
-    - assets/images/avatar.jpg
-    - assets/images/google_logo.png
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
   # fonts:
   #   - family: Schyler
   #     fonts:
