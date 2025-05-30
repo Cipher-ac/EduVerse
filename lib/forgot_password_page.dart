@@ -35,13 +35,13 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
             child: Image.asset('assets/images/bg.jpg', fit: BoxFit.cover),
           ),
 
-          //Blur + overlay escuro
+          //Blur + overlay azul
           BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
             child: Container(
               width: size.width,
               height: size.height,
-              color: Colors.black.withOpacity(0.4),
+              color: Color(0xFF5AC8FA).withOpacity(0.3),
             ),
           ),
 
@@ -58,7 +58,6 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                   ),
                   const SizedBox(height: 32),
 
-                  // Card branco semi-transparente
                   Container(
                     padding: const EdgeInsets.all(24),
                     decoration: BoxDecoration(
@@ -68,7 +67,6 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
-                        // Título
                         Text(
                           'Redefinição de Senha',
                           textAlign: TextAlign.center,
@@ -80,7 +78,6 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                         ),
                         const SizedBox(height: 8),
 
-                        // Descrição
                         Text(
                           'Insira seu email para redefinir sua senha e recuperar sua conta',
                           textAlign: TextAlign.center,
@@ -136,7 +133,6 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               ),
                               const SizedBox(height: 24),
 
-                              // Botão Enviar Link de Recuperação
                               ElevatedButton(
                                 onPressed: _enviarLink,
                                 style: ElevatedButton.styleFrom(
@@ -152,7 +148,6 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
                               ),
                               const SizedBox(height: 12),
 
-                              // Botão Voltar (outline)
                               ElevatedButton(
                                 onPressed: () => Navigator.pop(context),
                                 style: ElevatedButton.styleFrom(

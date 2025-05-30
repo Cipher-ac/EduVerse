@@ -3,6 +3,7 @@ import 'login_page.dart';
 import 'register_page.dart';
 import 'forgot_password_page.dart';
 import 'create_post_page.dart';
+import 'splash_screen.dart';
 
 void main() {
   runApp(const MeuApp());
@@ -23,10 +24,11 @@ class MeuApp extends StatelessWidget {
                   borderSide: BorderSide(color: Color(0xFF5AC8FA))))),
       initialRoute: '/',
       routes: {
-        '/': (_) => const CreatePostPage(),
+        '/': (_) => const SplashScreen(),
         '/register': (_) => const RegisterPage(),
         '/forgot': (_) => const ForgotPasswordPage(),
         '/create': (_) => const CreatePostPage(),
+        '/login': (_) => const LoginPage(),
       },
     );
   }

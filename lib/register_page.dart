@@ -40,13 +40,13 @@ class _RegisterPageState extends State<RegisterPage> {
             ),
           ),
 
-          // Blur + overlay escuro
+          // Blur + overlay azul
           BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
             child: Container(
               width: size.width,
               height: size.height,
-              color: Colors.black.withOpacity(0.4),
+              color: Color(0xFF5AC8FA).withOpacity(0.3),
             ),
           ),
 

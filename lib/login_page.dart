@@ -16,16 +16,12 @@ class _LoginPageState extends State<LoginPage> {
   void _efetuarLogin() {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
-      // TODO: implementar chamada de API
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Logando como $_email...')),
       );
     }
   }
 
-  void _loginGoogle() {
-    // implementar login Google dps
-  }
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -42,13 +38,13 @@ class _LoginPageState extends State<LoginPage> {
               fit: BoxFit.cover,
             ),
           ),
-          // Filtro de blur escuro
+          //blur
           BackdropFilter(
             filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
             child: Container(
               width: size.width,
               height: size.height,
-              color: Colors.black.withOpacity(0.4),
+              color: Color(0xFF5AC8FA).withOpacity(0.3),
             ),
           ),
 
@@ -61,14 +57,6 @@ class _LoginPageState extends State<LoginPage> {
                     alignment: Alignment.topLeft,
                     child: Padding(
                       padding: const EdgeInsets.only(bottom: 16),
-                      child: Text(
-                        'Tela de Login',
-                        style: TextStyle(
-                          color: Colors.white.withOpacity(0.9),
-                          fontSize: 18,
-                          fontWeight: FontWeight.w500,
-                        ),
-                      ),
                     ),
                   ),
                   // Logo
@@ -79,7 +67,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   const SizedBox(height: 32),
 
-                  // Card de formulário
+                  //formulário
                   Container(
                     padding: const EdgeInsets.all(24),
                     decoration: BoxDecoration(
@@ -161,11 +149,12 @@ class _LoginPageState extends State<LoginPage> {
                               side: BorderSide(color: Colors.black),
                               elevation: 1,
                             ),
-                            onPressed: _loginGoogle,
+                            onPressed: () =>
+                                Navigator.pushNamed(context, '/create'),
                           ),
                           const SizedBox(height: 16),
 
-                          // Botão Acessar
+                          //Acessar
                           ElevatedButton(
                             child: const Text('Acessar'),
                             style: ElevatedButton.styleFrom(
@@ -177,11 +166,12 @@ class _LoginPageState extends State<LoginPage> {
                               ),
                               elevation: 0,
                             ),
-                            onPressed: _efetuarLogin,
+                            onPressed: () =>
+                                Navigator.pushNamed(context, '/create'),
                           ),
                           const SizedBox(height: 12),
 
-                          // Botão Cadastre-se
+                          //Cadastre-se
                           ElevatedButton(
                             child: const Text('Cadastre-se'),
                             style: ElevatedButton.styleFrom(
@@ -198,7 +188,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                           const SizedBox(height: 16),
 
-                          // Link Esqueci senha
+                          //Esqueci senha
                           TextButton(
                             onPressed: () =>
                                 Navigator.pushNamed(context, '/forgot'),
