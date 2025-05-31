@@ -1,34 +1,85 @@
-# Desenvolvimento de protótipo de App
+<div align="center">
+   <img width=100% src= "https://capsule-render.vercel.app/api?type=waving&height=250&color=5ac8fa&text=EduVerse&fontColor=ffffff&fontSize=55&fontAlignY=42" />
+</div>
+
+# EduVerse - Aplicativo Educacional 
+
+> [!NOTE]
+> Veja a página Web do nosso ReadMe clicando no link abaixo :point_down:
+> 
+> https://yasmimgama.github.io/EduVerse/
+
+
 ## 1. Informações Gerais do Projeto
-**•	Nome do Aplicativo:** EduVerse
+**• Nome do Aplicativo:** EduVerse
 
-**•	Descrição:** Na sociedade atual há uma enorme quantidade de dados, que por sua vez ocasionam dificuldades no estudo de alguns indivíduos. Dessa maneira, para este trabalho prático foi criado um aplicativo de cunho educacional, o qual tem como principal objetivo ajudar o usuário que procura estudar um assunto que não compreendeu ou ofertar uma troca de conteúdo com outra matéria que possua maior domínio, contribuindo, assim, para o crescimento mútuo dos mesmos. 
- Tal aplicação foi inspirada na mecânica do app “ LinkedIn”, o qual busca conectar usuários que buscam emprego em todo mundo. Esta troca constante de informações mediante um tópico específico, sendo no nosso caso a educação, foi utilizada como fundação para a criação do aplicativo. Contribuindo, portanto, para amenizar o problema do grande volume de conteúdos abordado anteriormente. Pois o usuário realizaria seus estudos de forma mais direcionada, já que o mesmo se daria por outro usuário, o qual possui maior domínio no assunto requerido, evitando assim, com que o indivíduo faça sua busca em várias fontes distintas. Além de contribuir, também, para uma maior acessibilidade, ou seja, um maior alcance de pessoas que buscam sanar suas dúvidas, podendo ser acessado globalmente, melhorando cada vez mais o seu aprendizado.
- 
-**•	Equipe:** Yasmim Gama (***designer e documentação***), Renato Reis (***designer e programador***), Pedro Augusto (***designer e programador***), Adryel Marcelo (***designer e programador***) e Eduardo Santa Rosa (***programador***).
+**• Descrição:** Este projeto é um aplicativo de cunho educacional, que busca ajudar usuários que procuram estudar um assunto que não compreenderam ou viabilizar o ensino num conteúdo de uma matéria em que este possua maior domínio, contribuindo para o crescimento mútuo dos mesmos.
 
-**•	Tecnologias Usadas:** Dart como linguagem de programação, junto com seu framework Flutter. Ferramentas de desenvolvimento: Figma, para a criação do design do app, e Visual Studio Code para o desenvolvimento.
+**• Equipe:** **Yasmim Gama** (designer e documentação), **Renato Reis** (designer e programador), **Pedro Augusto** (designer e programador), **Adryel Marcelo** (designer e programador) e **Eduardo Santa Rosa** (programador).
+
+**• Tecnologias/ferramentas Usadas:** 
+<p align= "left"> 
+<img src = "https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img src = "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src = "https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white" />
+<img src = "https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+<img src = "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
+</p>
+
 
 ## 2. Objetivos e Problemática do Aplicativo
-Hoje em dia é comum ouvir-se falar que estamos na era da informação, e de fato temos um grande volume de informações a respeito dos mais diversos assuntos. Tal gama de conteúdos, no entanto, corrobora para que determinadas pessoas sintam-se perdidas em meio à tanta informação disponível, acarretando até mesmo em uma estagnação do indivíduo frente tal problemática. Isto gera, portanto, consequências negativas em seus estudos, pois tais indivíduos não conseguem evoluir nos mesmos ou levam um tempo muito maior para aprender de fato os conteúdos estudados. Muitas vezes, também, o conhecimento adquirido não é completo, ficando muitas lacunas, que são frutos dos problemas gerados pela grande quantidade de informação abordado.
- Portanto, a fim de solucionar este impasse e melhorar a qualidade do estudo destas pessoas, foi criado este protótipo de aplicativo para ajudar a direcionar o estudo de seus usuários. Isto se dá pois o app busca conectar uma pessoa que possua um maior domínio no assunto escolhido com outro usuário, o qual possui um domínio menor ou até mesmo apenas um conhecimento inicial. Dessa forma, o estudo desse indivíduo viria de uma quantidade reduzida de fontes, evitando, assim, com que o mesmo faça buscas e mais buscas, e, consequentemente, fique perdido em meio à tantas informações presentes no meio digital. 
+<div align="justify">
+Atualmente há um grande volume de dados, o que deixa algumas pessoas perdidas em meio à tanta informação. Portanto, para isso foi criado este aplicativo para ajudar a direcionar o estudo de seus usuários. Isto se dá pois o app busca conectar uma pessoa que tem um maior domínio num assunto escolhido com outro usuário que possui um domínio menor ou até mesmo apenas um conhecimento inicial. Dessa forma, o estudo desse indivíduo viria de uma quantidade reduzida de fontes, evitando com que o mesmo faça diversas buscas e fique perdido em meio à tantas informações presentes no meio digital.
+</div>
 
 ## 3. Funcionalidades
-O aplicativo em questão, o qual tem como público alvo estudantes que procuram grupos para estudar conteúdos específicos de determinadas matérias, possui a funcionalidade que possibilita o usuário pesquisar, por meio do campo de pesquisa, e entrar em diferentes grupos de estudo, por meio do botão “adicionar”, do assunto que procura aprender. O mesmo também pode ajudar outras pessoas ao trocar informações nos campos do conhecimento em que possuam maior domínio ao interagirem por meio de mensagens dentro do grupo, por exemplo. Também há a funcionalidade de postar conteúdos como vídeos ou fotos por meio do botão “postar” o qual está localizado dentro da aba “criar” no aplicativo. Além disso, há a aba “vídeo aula” na qual o usuário pode assistir as aulas do conteúdo de seu interesse. Ademais também foram adicionados os botões “notificações”, em que o usuário será informado sobre conteúdos novos de seus grupos salvos, seus novos seguidores e comentários feitos em seus posts, além de um botão “configurações”, o qual permitirá configurar sua conta, segurança da mesma, visibilidade, privacidade, configuração de notificações, de acessibilidade e Central de Ajuda.  Tudo isto com o intuito de auxiliar aqueles que desejam sanar suas dúvidas em um determinado assunto. 
+|     `Funcionalidade`      |     `Descrição`      |     `Funcionalidade`    |     `Descrição`     |
+|:-------------:|:-------------:|:--------------:|:-------------------:|
+| **Botão adicionar** | Permite entrar em diferentes grupos de estudos     | **Campo de pesquisa**    | Possibilita o usuário pesquisar conteúdos  |
+| **Botão postar** | Possibilita postar conteúdos como vídeos ou fotos    | **Chats** | Permite enviar mensagems dentro do App      |
+| **Botão configurações** | Permite configurar sua conta, segurança, visibilidade, privacidade, notificações, acessibilidade e Central de Ajuda.         | **Aba vídeo aula**    | O usuário pode assistir as aulas do conteúdo de seu interesse  |
+| **Botão notificações** | Informa sobre conteúdos novos de grupos salvos, novos seguidores e comentários feitos em posts|
+
+### 3.1. Funcionalidades Futuras
+<div align="justify">
+
+• **Gamificação no App:** Incluiríamos elementos da gamificação, como desafios semanais, pontuação, níveis e medalhas, para incentivar os usuários a se manterem engajados no aplicativo. Além disso, também seriam adicionadas recompenas por ensinar ou aprender algo com sucesso, dando a sensação de progresso e, portanto, aumentando a motivação do usuário.
+
+• **Recomendações personalizadas:** Implementaríamos recomendações que levariam em conta o histórico de estudos, as interações e interesses do usuário. Logo, o App poderá sugerir contúdos, professores ou assuntos que se encaixam com suas preferências. Portanto, com isso será possível criar trilhas de estudo personalizadas para cada usuário, deixando seu aprendizado mais eficiente.
+
+• **Salas de estudo ao vivo:** Os usuários poderiam criar ou participar de aulas em tempo real com um chat e videochamada incluídos, ajudando na troca de conhecimento em grupo.
+</div>
 
 ## 4. Interface e Design
-Utilizamos o “LinkedIn” como a plataforma de inspiração para desenvolver o aplicativo, na qual ocorreria os estudos mediante grupos criados dentro do mesmo, anúncios de palestras ou assuntos que sejam de interesse do indivíduo etc. Dessa forma, para garantir uma experiência amigável ao usuário escolhemos um design prático e de fácil usabilidade, evitando com que o mesmo fique perdido ao utilizar o aplicativo. Nesse sentido, buscamos evitar adicionar uma quantidade exacerbada de botões e ícones, colocando apenas o necessário para uma boa navegação no App.  Além disso, utilizamos a Psicologia das Cores, ciência que estuda o impacto das cores nas emoções e comportamentos humanos, para selecionar os tons mais apropriados com o objetivo de proporcionar um ambiente confortável para o usuário. Também utilizamos tais cores para destacar ícones, botões e os grupos de estudo presentes na aplicação para facilitar o entendimento da usabilidade do App, deixando-o mais didático.
+<div align="justify">
+Utilizamos o “LinkedIn” como inspiração para desenvolver o App. Dessa forma, para garantir uma experiência amigável ao usuário escolhemos um design prático e de fácil usabilidade. Logo, buscamos evitar adicionar uma quantidade exacerbada de botões e ícones, colocando apenas o necessário para uma boa navegação. Além disso, utilizamos a Psicologia das Cores, ciência que estuda o impacto das cores nas emoções e comportamentos humanos, para selecionar os tons mais apropriados e proporcionar um ambiente confortável para o usuário. Também utilizamos tais cores para destacar ícones, botões e os grupos de estudo presentes na aplicação para facilitar o entendimento da usabilidade do App, deixando-o mais didático.
+</div>
+<br/>
+<p align= "left">
+<img src = "https://github.com/YasmimGama/EduVerse/blob/main/EduVerse%20-%20Tela%20in%C3%ADcio.jpeg?raw=true" width="160" />
+<img src = "https://github.com/YasmimGama/EduVerse/blob/main/EduVerse%20-%20Tela%20v%C3%ADdeo.jpeg?raw=true" width="160" />
+<img src = "https://github.com/YasmimGama/EduVerse/blob/main/EduVerse%20-%20Tela%20grupos.jpeg?raw=true" width="160" />
+<img src = "https://github.com/YasmimGama/EduVerse/blob/main/EduVerse%20-%20Tela%20chats.jpeg?raw=true" width="160" />
+<img src = "https://github.com/YasmimGama/EduVerse/blob/main/EduVerse%20-%20Tela%20perfil.jpeg?raw=true" width="160" />
+<img src = "https://github.com/YasmimGama/EduVerse/blob/main/EduVerse%20-%20Tela%20configura%C3%A7%C3%B5es.jpeg?raw=true" width="160" />
+</p>
 
-<p = "left">
-<img src = "https://github.com/YasmimGama/EduVerse/blob/main/Tela%201.jpg?raw=true"/>
+## 5. Link Para a Documentação do Flutter
+:page_with_curl: https://docs.flutter.dev/#docs
 
-<img src = "https://github.com/YasmimGama/EduVerse/blob/main/Tela%203.jpg?raw=true"/>
+## 6. Como Executar/Testar o Projeto
+**1. Faça o download das pastas/arquivos do repositório;**
 
-## 5. Metodologia Adotada
-Como metodologia para a criação do app foi escolhida a prototipação. Tendo isto em mente, foi utilizada a ferramenta “Figma” para fazer um esboço inicial do aplicativo e organizar nossas ideias. Em seguida, após se ter uma visão mais concreta, foram desenvolvidas as telas “oficiais”, como foi observado por meio das fotos dispostas no tópico anterior.
- Ademais, foi pedido o feedback de todos os alunos inclusos no grupo para que só então pudéssemos dar início de fato na prototipação da aplicação. A mesma foi feita também por meio da ferramenta “Figma” citada, visando atender a todas as funcionalidades requisitadas, as quais foram explanadas anteriormente.
+Acesse o nosso repositório do EduVerse e faça o download de todos os arquivos e pastas do projeto. Você pode fazer isso usando a opção de download direto (baixando como um arquivo .zip) ou clonando o repositório usando o Git.
 
-## 6. Conclusão
-Portanto, por meio deste trabalho foi possível aperfeiçoar nossos conhecimentos e habilidades na disciplina de Programação – Mobile Coding a partir do desenvolvimento e prototipação das telas do aplicativo abordado. Tal aplicativo, como explanado anteriormente, é de cunho educacional e tem por objetivo ajudar usuários que buscam sanar suas dúvidas em algum campo do conhecimento. O mesmo busca proporcionar um design interativo, priorizando a fácil usabilidade para que seu principal objetivo de evitar com que esses usuários fiquem perdidos seja alcançado.
-Ademais, ao longo do processo de criação do aplicativo tivemos a oportunidade de aprender mais sobre a criação de aplicativos Android e seu funcionamento, além de assuntos como prototipação, por exemplo, metodologia esta que foi utilizada para realização deste trabalho. Além disso, ao sermos expostos a este projeto também desenvolvemos nossas soft skills, como trabalho em equipe, comunicação, empatia etc, sendo estas essenciais para a conclusão do trabalho proposto, uma vez que se buscou o feedback de todos os integrantes para que os mesmos estivessem de acordo com as escolhas para as funcionalidades, design, principal finalidade do aplicativo, entre outros.
-Desta maneira, o objetivo do trabalho proposto foi cumprido, pois o app atende aos requisitos estipulados, como foi possível se constatar a partir do protótipo e das fotos disponibilizadas, além da explanação e observação de suas funcionalidades. Logo, por meio da criação deste protótipo tivemos, também, a oportunidade de aprender mais sobre tal metodologia e como a mesma se dá no ambiente mobile, podendo, assim, aprofundar nossos conhecimentos e habilidades no assunto em questão e nos demais assuntos supracitados.
+**2. Abra-os com o Android Studio;**
+
+Inicie o Android Studio e na tela inicial selecione a opção "Abrir um Projeto Existente". Vá até o local onde você salvou os arquivos do EduVerse e selecione a pasta principal do projeto para abri-lo.
+
+**3. Configure e inicie o seu emulador;**
+
+No seu Android Studio abra o AVD Manager e selecione um dispositivo virtual da sua escolha ou crie um novo. Depois de configurar clique em "play" para iniciar o emulador.
+
+**4. Execute o aplicativo.**
+
+Deixe seu emulador em execução e clique no botão "run" para compilar e instalar o EduVerse nele. O aplicativo será iniciado automaticamente após a instalação.
